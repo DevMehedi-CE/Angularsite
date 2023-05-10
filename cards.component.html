@@ -1,0 +1,16 @@
+<div class="card-wrapper">
+  <section *ngFor="let Card of cardList">
+    <div class="card">
+      <div class="img">
+        <img src="../../assets/01.jpg" alt="" />
+      </div>
+      <div class="content">
+        <h4>{{ card.title }}</h4>
+        <p>
+          {{ card.description }}
+        </p>
+        <button>Drive Now</button>
+      </div>
+    </div>
+  </section>
+</div>
